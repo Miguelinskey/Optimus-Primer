@@ -1,0 +1,20 @@
+{
+  "name": "optimus",
+  "version": "1.0.1",
+  "description": "Primer theme builder.",
+  "main": "optimus.js",
+  "scripts": {
+    "bundle": "node optimus.js & npx stylelint '**/*.css' --fix",
+    "build": "node optimus.js",
+    "lint": "npx stylelint '**/*.css' --fix"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@primer/primitives": "^7.15.5",
+    "fast-csv": "^4.3.6",
+    "stylelint": "^15.11.0",
+    "stylelint-config-standard": "^34.0.0",
+    "tinycolor2": "^1.6.0"
+  }
+}
